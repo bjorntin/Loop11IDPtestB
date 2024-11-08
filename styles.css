@@ -1,0 +1,59 @@
+.navicon {
+    height: 50px;
+    width: 50px;
+    padding-bottom: 5px;
+}
+
+.sectionicon {
+    width: 25px;
+    height: 25px;
+}
+
+.sectionicon:hover{
+    cursor: pointer;
+}
+
+.warningicon {
+    width: 35px;
+    height: 35px;
+}
+
+.border .rounded .mb-2 {
+    justify-content: center;
+    align-items: center;
+}
+
+.draggable {
+    cursor: move;
+}
+
+.droppable {
+    transition: all 0.2s ease;
+}
+
+.droppable.drag-over {
+    background-color: #e9ecef;
+    border: 2px dashed #6c757d !important;
+}
+
+.module-slot {
+    user-select: none;
+}
+
+.bench-slot {
+    min-height: 48px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 767.98px) {
+    .nav.flex-column {
+        flex-direction: row !important;
+        justify-content: center;
+        overflow-x: auto;
+        padding: 10px 0;
+    }
+
+    .nav.flex-column .btn {
+        margin: 0 5px !important;
+    }
+}
